@@ -9,10 +9,10 @@ const cadastrarRoutes = require('./routes/cadastrar')
 const deletarRoutes = require('./routes/delete')
 const editarRoutes = require('./routes/editar')
 
-app.use('/', consultarRoutes)
-app.use('/', cadastrarRoutes)
-app.use('/', deletarRoutes)
-app.use('/', editarRoutes)
+app.use('/api', consultarRoutes)
+app.use('/api', cadastrarRoutes)
+app.use('/api', deletarRoutes)
+app.use('/api', editarRoutes)
 
 
 
